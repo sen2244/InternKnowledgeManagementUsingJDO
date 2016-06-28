@@ -1,0 +1,165 @@
+#head
+{
+	color: #191818;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: rgb(247, 244, 244) 4px 4px 4px;
+    margin: 2px 2px 2px 0px;
+    background-color: #ffe8e8;
+    height: 80px;
+    padding: 35px 0 0 0;
+    opacity: 0.8;
+}
+input[type = button]
+{
+	font-size: 20px;
+}
+#add
+{
+	background-color: #0c1d37;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    border: 5px solid #718386;
+    color: white;
+}
+#add:hover
+{
+	background-color: #fbfbfb;
+	color: black;
+}
+#submit
+{
+	width: 150px;
+	height: 35px;
+	font-size: 105%;
+	border-radius: 5px;
+	float: right;
+	font-family: cursive;
+	margin-right: 70px;
+	background-color: #292e4c;
+	margin-top: 55px;
+	color: white;
+	-webkit-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+	-moz-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+	box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+}
+
+#submit:hover
+{
+	background-color: white;
+	color: #050a29;
+}
+input[type = text],select
+{
+	width:200px;
+	margin: 5px;
+	border-radius: 4px;
+	height: 35px;
+	font-size: 100%;
+	border:2px solid #718386;
+	padding: 0 10px 0 10px;
+	-webkit-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+-moz-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+}
+.centerDiv
+{
+	width: 750px;
+	margin: auto;
+}
+#msgDiv
+{
+	height: 40px;
+}
+#spnMsg
+{
+	color: red;
+	float: right;
+	text-align: right;
+	margin-right: 50px;
+	font-size: 130%;
+}
+#contentDiv
+{
+	margin: 0 auto 0 auto;
+	width: 750px;
+	overflow-y: hidden;
+	border-radius: 12px;
+	min-height: 250px;
+	padding: 20px;
+}
+textarea
+{
+	resize: none;
+	margin: 15px 0 0 5px;
+	width:420px;
+	height: 50px;
+	overflow-y: auto;
+	border-radius: 4px;
+	font-size: 100%;
+	border:2px solid #718386;
+	padding: 10px 10px 10px 10px;
+	-webkit-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+-moz-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+}
+#headtable
+{
+	font-size: 100%;
+	border-radius: 8px;
+	float:left;
+	width:650px;
+	margin-top: 15px;
+}
+#headtable tr
+{
+	min-height: 25px;
+	background-color: #ddf1dd;
+	color: black;
+	text-align: center;
+}
+#headtable td
+{
+	width: 33.33%;
+	border-radius: 8px;
+	padding: 5px 15px 5px 15px;
+	font-weight: bold;
+}
+#skillsTable
+{
+	font-size: 120%;
+	border-radius: 8px;
+	float:left;
+	width:650px;
+}
+#skillsTable tr
+{
+	min-height: 25px;
+}
+#skillsTable td
+{
+	width: 33.33%;
+	border-radius: 8px;
+	padding: 5px 15px 5px 15px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+#skillsTable tr:nth-child(even)
+{
+	background-color: #524c4b;
+	color: #c5bebe;
+}
+#skillsTable tr:nth-child(odd)
+{
+	background-color: #101414;
+	color: #c19972;
+}
+html
+{
+	background-image: url(7030205-city-basketball-court.jpg) !important;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #293859;
+}

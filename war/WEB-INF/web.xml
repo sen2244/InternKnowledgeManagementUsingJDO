@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>InternKnowledgeManagementUsingJDO</servlet-name>
+		<servlet-class>com.webProject.InternKnowledgeManagementUsingJDOServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InternKnowledgeManagementUsingJDO</servlet-name>
+		<url-pattern>/internknowledgemanagementusingjdo</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	    <servlet-name>FetchServlet</servlet-name>
+	    <servlet-class>com.webProject.FetchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>FetchServlet</servlet-name>
+	    <url-pattern>/fetchservlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	    <servlet-name>KnowledgeServlet</servlet-name>
+	    <servlet-class>com.webProject.KnowledgeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>KnowledgeServlet</servlet-name>
+	    <url-pattern>/knowledgeservlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	    <servlet-name>LoadSampleDetails</servlet-name>
+	    <servlet-class>com.webProject.LoadSampleDetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>LoadSampleDetails</servlet-name>
+	    <url-pattern>/loadsampledetails</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	    <servlet-name>RegisterServlet</servlet-name>
+	    <servlet-class>com.webProject.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>RegisterServlet</servlet-name>
+	    <url-pattern>/registerservlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	    <servlet-name>LoginServlet</servlet-name>
+	    <servlet-class>com.webProject.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>LoginServlet</servlet-name>
+	    <url-pattern>/loginservlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>HomePage.html</welcome-file>
+	</welcome-file-list>
+</web-app>

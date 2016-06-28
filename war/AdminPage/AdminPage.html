@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Knowledge Portal</title>
+	<link rel="stylesheet" type="text/css" href="AdminPage.css">
+	<script type="text/javascript" src="/jquery.js"></script>
+	<script type="text/javascript" src="AdminPage.js"></script>
+</head>
+<body>
+<div id="floatingDiv" align="center">
+	<h1 align="center">Know what others have learnt!</h1>
+	<div id="msgDiv" class="centerDiv">
+	<span id="spnMsg"></span>
+	</div>
+	<div>
+		<input type="text" name="email" id="mail" class="textBox" placeholder="Mail address of the student!" tabindex="1" />
+		<input type="button" name="load" id="load" value="Load" tabindex="6" />
+	</div>
+	<div style="display: inline-block; width: 100%;">
+		<input type="text" class="smallBox floatLeft" name="topic" id="topic" placeholder="Topic" tabindex="2" />
+		<input type="text" class="smallBox floatRight" name="subTopic" id="subTopic" placeholder="SubTopic" tabindex="3" />
+	</div>
+	<div style="display: inline-block; width: 100%;">
+		<select id="level" class="floatLeft" tabindex="4">
+			<option value="">Select Level</option>
+			<option>Novice</option>
+			<option>Intermediate</option>
+			<option>Expertise</option>
+		</select>
+		<select id="month" class="floatRight" tabindex="5">
+			<option value="">Select Month</option>
+			<option>First</option>
+			<option>Second</option>
+			<option>Third</option>
+			<option>Extended</option>
+		</select>
+	</div>
+		
+	<div id="loadDetails">
+		
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+label
+{
+	width: 400px;
+	margin: 20px;
+	border-radius: 5px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 130%;
+	color: white;
+}
+input[type = button]
+{
+	width: 175px;
+    height: 35px;
+    font-size: 19px;
+    border-radius: 5px;
+    float: right;
+    margin: 0px 20px 30px 0;
+    background-color: #2c2b31;
+    color: #e4e6e4;
+    font-family: cursive;
+    border: 3px solid;
+    border-color: #f8f8f8;
+    padding: 2px;
+}
+input[type = button]:hover
+{
+	background-color: #94bd9e;
+    color: #010004;
+
+}
+input[type = text]
+{
+	width: 200px;
+    margin: 5px;
+    border-radius: 4px;
+    height: 35px;
+    font-size: 100%;
+    border: 2px solid #718386;
+    padding: 0 10px 0 10px;
+    -webkit-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+    -moz-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+    box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+}
+select {
+	margin-left: 5px;
+    width: 225px;
+    border-radius: 4px;
+    height: 35px;
+    font-size: 100%;
+    border: 2px solid #718386;
+    padding: 0 10px 0 10px;
+    -webkit-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+    -moz-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+    box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+}
+.heading
+{
+	color: white;
+	font-family: cursive;
+	font-size: 60px;
+	text-shadow: rgb(3, 3, 3) 4px 4px 4px;
+	margin: 2px 2px 2px 60px;
+}
+.lineDiv
+{
+	display: inline-block;
+	min-height: 98px;
+}
+.subDiv
+{
+	display: inline-block;
+}
+.leftDiv
+{
+	display: inline-block;
+	width: 200px;
+}
+.rightDiv
+{
+	display: inline-block;
+	width: 200px;
+}
+html
+{
+	background-image: url(7032372-dock-street-shop.jpg) !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: cursive;
+	background-color: #293859;
+}
+#centerDiv
+{
+	max-width: 900px;
+	margin: auto;
+}
+#msgDiv
+{
+	height: 40px;
+}
+#spnMsg
+{
+	color: red;
+	float: right;
+	text-align: right;
+	margin-right: 50px;
+	font-size: 150%;
+}
+#otherBox
+{
+	width: 75px;
+	height: 30px;
+	margin-top: 0px;
+}
+.qual
+{
+	float: left;
+	width: 95px;
+	margin-right: 0px;
+}

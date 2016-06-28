@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Page</title>
+	<link rel="stylesheet" type="text/css" href="RegisterStyleSheet.css" />
+	<script type="text/javascript" src="/jquery.js"></script>
+	<script type="text/javascript" src="registerPage.js"></script>
+</head>
+<body>
+<br>
+<br>
+<h2 align="center" class="heading">Register</h2>
+<br>
+<div align="center" id="centerDiv">
+	<div id="msgDiv">
+		<span id="spnMsg"></span>
+	</div>
+	<div class="lineDiv">
+		<div class="subDiv">
+		<div class="leftDiv">
+			<label>Full Name</label>
+		</div>
+		<div class="rightDiv">
+			<input type="text" name="name"  id="name" tabindex="1" />
+		</div>
+		</div>
+		<div class="subDiv">
+			<div class="leftDiv">
+				<label>Mail Address</label>
+			</div>
+			<div class="rightDiv">
+				<input type="text" name="email" id="mail" tabindex="2" />
+			</div>
+		</div>
+	</div>
+	<div class="lineDiv">
+		<div class="subDiv">
+			<div class="leftDiv">
+				<label>Mobile No.</label>
+			</div>
+			<div class="rightDiv">
+				<input type="text" name="phone"  id="phone" tabindex="3" />
+			</div>
+		</div>
+		<div class="subDiv">
+		<div class="leftDiv">
+			<label>Employee ID</label>
+		</div>
+		<div class="rightDiv">
+			<input type="text" name="id"  id="empId" tabindex="4" />
+		</div>
+		</div>
+	</div>
+	<div class="lineDiv">
+		<div class="subDiv">
+			<div class="leftDiv">
+				<label>Qualification</label>
+			</div>
+			<div class="rightDiv">
+				<select name="qual"  id="qual" tabindex="5" >
+				<option value=" ">select</option>
+				<option>B.E</option>
+				<option>B.Tech</option>
+				<option>B.SC</option>
+				<option>others</option>
+				</select>
+				<input type="text" name="otherBox" id="otherBox" tabindex="6" placeholder="Type Qualification" style="display:none;" />
+			</div>
+		</div>
+		<div class="subDiv">
+			<div class="leftDiv">
+				<label>Intern Type</label>
+			</div>
+			<div class="rightDiv">
+				<select id="type" name="type" tabindex="7">
+				<option value=" ">select</option>
+				<option>Java Developer</option>
+				<option>Web Design</option>
+				<option>Testing</option>
+				<option>Content Writer</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	<div class="lineDiv">
+		<div class="subDiv">
+			<div class="leftDiv">
+				<label>Intern Month</label>
+			</div>
+			<div class="rightDiv">
+				<select id="month" name="month" tabindex="8">
+				<option value=" ">select</option>
+				<option>First</option>
+				<option>Second</option>
+				<option>Third</option>
+				<option>Extended</option>
+				</select>
+			</div>
+		</div>
+		<div class="subDiv">
+			<div class="leftDiv">
+				
+			</div>
+			<div class="rightDiv">
+				
+			</div>
+		</div>
+	</div>
+	<div>
+		<input type="button" name="save" value="Save" id="save" tabindex="9" />
+	</div>
+</div>
+</body>
+</html>

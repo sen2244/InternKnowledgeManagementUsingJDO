@@ -1,0 +1,144 @@
+html
+{
+	background-image: url('6967705-cool-3d-background.jpg') !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #293859;
+}
+#floatingDiv
+{
+	background-color: transparent;
+	max-width: 600px;
+	min-height: 650px;
+	margin:50px auto auto auto;
+}
+input[type = text]
+{
+	width: 160px;
+	margin: 5px;
+	border-radius: 4px;
+	height: 35px;
+	font-size: 100%;
+	border:2px solid #718386;
+	padding: 0 10px 0 10px;
+	-webkit-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+-moz-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+}
+select
+{
+	width:187px;
+	margin: 5px;
+	border-radius: 4px;
+	height: 35px;
+	font-size: 100%;
+	border:2px solid #718386;
+	padding: 0 10px 0 10px;
+	-webkit-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+-moz-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+}
+input[type = button]
+{
+	width: 100px;
+    height: 35px;
+    font-size: 130%;
+    border-radius: 5px;
+    background-color: #262626;
+    color: #9b9b9b;
+}
+input[type = button]:hover
+{
+	background-color: #396d33;
+    color: white;
+}
+#mail
+{
+	width: 350px;
+	margin-right: 20px;
+}
+#topic
+{
+	margin-left: 52px;
+}
+.floatLeft
+{
+	margin: 5px 0 5px 50px;
+	float: left;
+}
+.floatRight
+{
+	float: left;
+}
+
+.smallBox
+{
+	width: 160px;
+}
+h1
+{
+	margin-top: 5px;
+    color: rgba(255,255,255,1);
+    height: 30px;
+    font-size: 45px;
+}
+#msgDiv
+{
+	height: 30px;
+}
+#spnMsg
+{
+	color: red;
+	float: right;
+	text-align: right;
+	margin-right: 150px;
+}
+.details
+{
+	background-color: #b5b5b5;
+	padding: 20px 20px 20px 20px;
+	color: black;
+	border-radius: 8px;
+	margin: 5px;
+	overflow: hidden;
+	word-wrap: break-word;
+	word-break:break-all;
+	font-weight: bold;
+	display: inline-block;
+}
+.divLeft
+{
+	margin: 10px 0 10px 0;
+	float: left;
+	text-align: left;
+	width: 50%;
+}
+.divRight
+{
+	float: right;
+	text-align: left;
+	width: 50%;
+	margin: 10px 0 10px 0;
+}
+.knowDetails
+{
+	background-color: transparent;
+	max-height: 335px;
+	overflow-y: auto;
+	width: 100%;
+	line-height: 1.5;
+}
+#loadDetails
+{
+	max-height: 500px;
+	overflow-y: auto;
+}
+.eachDiv
+{
+	background-color: #f4f3ef;
+	padding: 20px 20px 20px 20px;
+	color: black;
+	border-radius: 8px;
+	margin: 5px;
+	overflow: hidden;
+}

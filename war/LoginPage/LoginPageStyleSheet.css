@@ -1,0 +1,69 @@
+.contentDiv
+{
+	width: 500px;
+	height: 400px;
+	margin: 50px auto 0 auto;
+}
+input[type = text]
+{
+	width: 200px;
+    margin: 20px;
+    border-radius: 4px;
+    height: 35px;
+    font-size: 100%;
+    border: 2px solid #718386;
+    padding: 0 10px 0 10px;
+    -webkit-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+    -moz-box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+    box-shadow: 1px 1px 12px 1px rgba(95,104,199,1);
+}
+input[type = button]
+{
+	float: right;
+	margin: auto;
+	margin-right: 20px;
+	width: 150px;
+	background-color: #18222b;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 120%;
+	font-family: cursive;
+	color: antiquewhite;
+}
+input[type = button]:hover
+{
+	background-color: #352e40;
+	box-shadow: 0px 0px 42px -4px rgba(255,255,255,1);
+}
+#cover
+{
+	background-color: black;
+	margin-top: 0px;
+	padding: 20px 0 20px 0;
+}
+h2
+{
+	color: white;
+	font-size: 35px;
+	margin-right: 80px;
+}
+#msgDiv
+{
+	height: 45px;
+}
+#spnMsg
+{
+	color: red;
+	float: right;
+	text-align: right;
+	margin-right: 50px;
+	font-size: 100%;
+}
+html
+{
+	font-size: 130%;
+	color: white;
+	font-family: cursive;
+	background-image: url('7032535-audio-cassette-photo.jpg');
+	background-color: #293859;
+}

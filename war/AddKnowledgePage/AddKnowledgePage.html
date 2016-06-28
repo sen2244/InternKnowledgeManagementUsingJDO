@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Knowledge</title>
+	<link rel="stylesheet" type="text/css" href="addKnowledgeStyleSheet.css" />
+	<script type="text/javascript" src="/jquery.js"></script>
+	<script type="text/javascript" src="addKnowledgePage.js"></script>
+</head>
+<body>
+<br>
+<p align="center" id="head">Add Knowledge to your Profile</p>
+<div id="contentDiv">
+	<div id="msgDiv" class="centerDiv">
+	<span id="spnMsg"></span>
+	</div>
+	<div class="centerDiv">
+	<div id="inputDiv" class="centerDiv">
+	<div>
+	<input type="text" name="topic" id="topic" tabindex="1" placeholder="Topic (ie., Java,Web Design,etc.)" onkeyup="check();" onkeydown="check();" />
+	<input type="text" name="subTopic" id="subTopic" tabindex="2" placeholder="Sub Topic (ie., JSP,HTML5,etc.)" onkeyup="check();" onkeydown="check();" />
+	<select id="level" name="levelOfUnderstanding" id="level" tabindex="3" onchange="check();">
+		<option value="">Select Level</option>
+		<option>Novice</option>
+		<option>Intermediate</option>
+		<option>Expertise</option>
+	</select>
+	<input type="button" name="" value="+" id="add" tabindex="5" />
+	</div>
+	<div id="descrip">
+	<textarea name="description" id="description" tabindex="4" placeholder="Describe in detail!" onkeyup="check();" onkeydown="check();" ></textarea>
+	<input type="button" id="submit" tabindex="6" value="Submit" style="display:none;" />
+	</div>
+	</div>
+<div id="tableDiv" style="display:none;">
+	<table id="headtable"><thead><tr><td>TOPIC</td><td>SUB TOPIC</td><td>KNOWLEDGE LEVEL</td></tr><thead></table>
+	<table id="skillsTable">
+	</table>
+</div>
+</div>
+</div>
+</body>
+</html>
