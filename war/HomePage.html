@@ -3,8 +3,7 @@
 <html>
 <head>
 	<title>HomePage</title>
-</head>
-<style type="text/css">
+	<style type="text/css">
 	html
 	{
 		background-image: url("6971346-cobblestone-street.jpg");
@@ -48,19 +47,47 @@
 		height: 80px;
 	}
 </style>
-<body>
+<script type="text/javascript">
+    function checkCookies(){
+    	var cookies = new Array();
+    	cookies = unescape(document.cookie).split(';');
+    	if(cookies.length > 1)
+    	{
+    		console.log("Cookies Available!");
+    		document.getElementById("login").style.display = "none";
+    		document.getElementById("register").style.display = "none";
+    		document.getElementById("knowledge").style.display = "block";
+    		document.getElementById("search").style.display = "block";
+    	}
+    	else
+    	{
+    		console.log('No cookie');
+    		document.getElementById("login").style.display = "block";
+    		document.getElementById("register").style.display = "block";
+    		document.getElementById("knowledge").style.display = "none";
+    		document.getElementById("search").style.display = "block";
+
+    	}
+    	setTimeout(checkCookies,1000);
+    };
+</script>
+</head>
+<body onload="checkCookies();">
 <br>
 <br>
 <h1 align="center">Welcome to Intern Knowledge Management System!</h1>
 <br>
-<div class="wrapper">
+<div id="register" class="wrapper" style="display:none;">
 	<input type="button" name="" value="Register" onclick="javascript:window.location.href = 'RegisterPage/RegisterPage.html'">
 </div>
-<div class="wrapper">
+<div id="login" class="wrapper" style="display:none;">
 	<input type="button" name="" value="Login" onclick="javascript:window.location.href = 'LoginPage/LoginPage.html'">
 </div>
-<div class="wrapper">
+<div id="search" class="wrapper" style="display:none;">
 	<input type="button" name="" value="Search" onclick="javascript:window.location.href = 'AdminPage/AdminPage.html'">
+</div>
+<div id="knowledge" class="wrapper" style="display:none;">
+	<input type="button" name="" value="Add Knowledge" style="width:250px;margin-left:-40px;" onclick="javascript:window.location.href = 'AddKnowledgePage/AddKnowledgePage.html'">
 </div>
 </body>
 </html>

@@ -7,6 +7,7 @@ import java.util.List;
 
 import javax.jdo.PersistenceManager;
 import javax.jdo.Query;
+import javax.mail.Session;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import javax.xml.soap.Detail;
